@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "Sweatshirt",
+      "description": "finest linens, extra warm, much comfort best deal broh",
+      "image": "",
+      "price": 62.29,
+      "inCart": false
+    },
+    {
+      "id": 2,
+      "name": "Sweatpants",
+      "description": "Breathable fabric broh",
+      "image": "",
+      "price": 32.28,
+      "inCart": false
+    },
+    {
+      "id": 3,
+      "name": "T-Shirt",
+      "description": "Just a regular t-shirt broh",
+      "image": "",
+      "price": 25.86,
+      "inCart": false
+    },
+    {
+      "id": 4,
+      "name": "Jeans",
+      "description": "I dunno ,they fit well, try it out broh",
+      "image": "",
+      "price": 56.47,
+      "inCart": false
+    },
+    {
+      "id": 5,
+      "name": "Sneakies",
+      "description": "Buy these broh",
+      "image": "",
+      "price": 50.14,
+      "inCart": false
+    },
+    {
+      "id": 6,
+      "name": "Wallet",
+      "description": "Holds your money broh",
+      "image": "",
+      "price": 30.24,
+      "inCart": false
+    },
+    {
+      "id": 7,
+      "name": "Watch",
+      "description": "Broh you don’t want to be late for stuff",
+      "image": "",
+      "price": 67.82,
+      "inCart": false
+    },
+    {
+      "id": 8,
+      "name": "Socks",
+      "description": "Do not buy these.",
+      "image": "",
+      "price": 12.96,
+      "inCart": false
+    },
+    {
+      "id": 9,
+      "name": "Undies",
+      "description": "Soft on your junk broh",
+      "image": "",
+      "price": 10.42,
+      "inCart": false
+    }
+  ]
