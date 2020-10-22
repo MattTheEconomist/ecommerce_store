@@ -4,15 +4,12 @@ export default function Navbar(props) {
   const { itemBoughtAlert } = props;
   const [showBoughtText, setShowBoughtText] = useState(true);
 
-
-  function scrollToBottom (){
-      window.scrollTo(0,500)
+  function scrollToBottom() {
+    window.scrollTo(0, 800);
   }
 
-
-
   useEffect(() => {
-    let timer1 = setTimeout(() => setShowBoughtText(false), 1000);
+    let timer1 = setTimeout(() => setShowBoughtText(false), 2000);
     console.log(itemBoughtAlert);
 
     return () => {
@@ -24,9 +21,13 @@ export default function Navbar(props) {
   return (
     <div id="navbar">
       {" "}
-      <button onClick={scrollToBottom}>View Shopping Cart</button>
-       <h5>{showBoughtText && "Item Added to Cart"}</h5>
+      <button id="viewCartBtn" onClick={scrollToBottom}>
+        View Shopping Cart
+      </button>
+      
+      {showBoughtText &&  <div id="itemAddAlert">
+        <h5>Item Added to Cart</h5>
+      </div>}
     </div>
   );
-
 }

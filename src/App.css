@@ -1,38 +1,127 @@
-.App {
+#storefront_area{
+  display: grid;
+  grid-gap: 0.5%;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 7%; 
+  margin-left: 7%; 
+  grid-template-rows: repeat(3,27%) ;
+}
+#shoppingCartArea{
+  margin-left: 5%; 
+  margin-top: -10%;
+  font-size: 25px;
+  background-color: antiquewhite;
+  width: 45%; 
+  ;
+}
+
+
+.shoppingCartBtn{
+  font-size: 20px;
+}
+
+.buyButton:hover{
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.blankRow{
+  height: 20px !important
+}
+
+
+
+
+.productArea{
+  display: grid;
+  grid-template-rows: 10% 3fr 1fr 8%;
+  background-color: hsla(36, 1%, 63%, 0.79);
+  border: 5px solid hsla(36, 92%, 95%, 0.89);
+
+}
+
+.buyButton{
+  margin-left: 1px;
+  margin-right: 1px; 
+  margin-bottom: 1px; 
+  border: 1px solid black;
+  width: 75%;
+  justify-self: center;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: hsla(194, 100%, 79%, 1);
+}
+
+
+.buyButton:hover{
+  box-shadow: inset 0 0 10px #000000;
+}
+
+
+.productName{
+ font-size: 30px;
+text-align: center;
+margin-top: -3px; 
+margin-bottom: 25%;
+/* YOU ARE HERE */
+}
+.productDescription{
+  border: 1px solid black; 
+  text-align: center; 
+  font-size: 20px;
+
+
+}
+
+
+#navbar{
+  background-color:hsla(194, 20%, 26%, 1);
+  height: 45px;
+  display: flex; 
+  border: 1px solid grey; 
+  
+}
+
+
+#viewCartBtn{
+  width: 15%; 
+  font-size: 20px; 
+  margin-top: 1px; 
+  margin-bottom: 1px
+
+}
+#itemAddAlert{
+  background-color: yellow ;
+  font-size: 19px; 
+  margin-left: 5%; 
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 1px;
+  height: auto; 
+  /* margin-bottom: 2%; */
   text-align: center;
+  /* transition: 0.2s */
+
+
+}
+#itemAddText{
+
+  margin-bottom: 20px  !important;
+  padding-bottom: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.totalText{
+  font-weight: bold;
+}
+#footer{
+  height: 500px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+img{
+  width: 200px; 
+  height: 200px; 
+  margin: auto; 
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
